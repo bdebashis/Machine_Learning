@@ -1,5 +1,5 @@
 ---
-output: word_document
+output: html_document
 ---
 # Practical Machine Learning Course Project
 
@@ -178,7 +178,7 @@ plot(gbmFit1, ylim=c(0.9, 1))
 
 ## Predicting Results on the Test Data
 
-Random Forests gave an Accuracy in the myTesting dataset of 99.9%, which was more accurate that what was obtained from the Decision Trees or Generalized Boosted Regression. The expected out-of-sample error is 100-99.89 = 0.1%.
+Random Forests gave an Accuracy in the myTesting dataset of 99.9%, which was more accurate that what was obtained from the Decision Trees or Generalized Boosted Regression. The expected out-of-sample error is 100 - 99.9 = 0.1%.
 
 ``` {r predict_result}
 predictionB2 <- predict(modFitB1, testing, type = "class")

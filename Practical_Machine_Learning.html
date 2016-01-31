@@ -314,7 +314,7 @@ gbmAccuracyTest</code></pre>
 </div>
 <div id="predicting-results-on-the-test-data" class="section level2">
 <h2>Predicting Results on the Test Data</h2>
-<p>Random Forests gave an Accuracy in the myTesting dataset of 99.9%, which was more accurate that what was obtained from the Decision Trees or Generalized Boosted Regression. The expected out-of-sample error is 100-99.89 = 0.1%.</p>
+<p>Random Forests gave an Accuracy in the myTesting dataset of 99.9%, which was more accurate that what was obtained from the Decision Trees or Generalized Boosted Regression. The expected out-of-sample error is 100 - 99.9 = 0.1%.</p>
 <pre class="r"><code>predictionB2 &lt;- predict(modFitB1, testing, type = &quot;class&quot;)
 predictionB2</code></pre>
 <pre><code>##  2 31  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 
